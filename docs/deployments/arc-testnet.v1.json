@@ -1,0 +1,36 @@
+{
+  "network": "Arc Testnet",
+  "chainId": 5042002,
+  "script": "contracts/script/DeployOrvex.s.sol",
+  "deployer": "0x3A28d8a55f2541e93Ef508506395Dc43C513C354",
+  "deploymentBlock": 72205615,
+  "lastBlock": 72205650,
+  "contracts": [
+    {
+      "contract": "OrvexIdentity",
+      "address": "0xffd9bceaef38285ce74bb4f9acd3d62c53d811f0",
+      "hash": "0xc8f97ed8b432665de6a1308af464bb3c8fcb72511a711fbc16236a34ad287393"
+    },
+    {
+      "contract": "OrvexProof",
+      "address": "0xd37b764d8dc5079830d6ba4eeb2b58eef8563b96",
+      "hash": "0x1f2e9827625a98ad1132d21a25b03c005bc82e5f7655a479decb4647b078ef2b"
+    },
+    {
+      "contract": "OrvexChallenges",
+      "address": "0x43bb652a6a42a4f622b2a9f4e86cbaa2bb621a4a",
+      "hash": "0x2abd4eaaaeb1687c322d8571c94dc424231bc817ce6196ad90290c2f4bfd7e85"
+    },
+    {
+      "contract": "OrvexLaunchpad",
+      "address": "0xc0930b85e1de505e8572aec5926c0a9a56c3a580",
+      "hash": "0x86c08a0f68812530a586b4fe5852dbae4faabcb2c9ca7b3cf3fc35b5e3d3459a"
+    },
+    {
+      "contract": "OrvexIdeas",
+      "address": "0xa7c74fcbc3375c9db0a7c17b10e86edc754c9280",
+      "hash": "0xa5ff15d888924a5d011519dac70f8709a9946d5a98a1130e98f5a10aab80c386"
+    }
+  ],
+  "recordersFinalized": true
+}
